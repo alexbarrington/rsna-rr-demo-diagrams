@@ -10,7 +10,11 @@ flowchart TD
     Qvera --> |2d DICOM| Ramsoft
     Qvera --> |2e DICOM| NT
 
-    NT --> |3 DICOM| MV[MediView XR90]
+    NT --> |3a DICOM| Microsoft[Microsoft]
+    NT --> |3b DICOM| Realize[Realize Elucis]
+
+    Microsoft[Microsoft] --> |4a AI Results| NT
+    Microsoft[Microsoft] --> |4b Report Impressions?!?| Ramsoft
 
     Epic --> |Remote Ordering and Image Exchange?!?| Epic
 ```
