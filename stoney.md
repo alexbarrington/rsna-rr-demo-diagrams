@@ -1,7 +1,7 @@
 # Team Stoney Flow Chart
 
 ```mermaid
-flowchart TD
+flowchart LR
     Generator[Demo Generator] --> |1 DICOM| Qvera[Qvera Interface Engine]
  
     Qvera --> |2a ORM| Epic
